@@ -1,0 +1,130 @@
+body{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* NAVBAR */
+
+.navbar-logo img{
+    height: 20px;
+    max-width: 130px;
+    margin-left: 80px;
+    
+}
+
+/* LOGIN */
+
+.background-video {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .navbar button{
+    margin-right: 80px;
+  }
+
+   .card{
+    margin-top: 130px;
+  }
+
+  .travels{
+    text-align: center;
+    
+  }
+
+  .paragraph{
+    text-align: center;
+    font-weight: bold;
+    color: #007BFF;
+    font-size: 24px;
+    padding-top: 300px;
+  }
+
+
+  /* FOOTER */
+
+.footer {
+    background-color: #0e101175;
+    padding: 40px 0;
+    color: #ecf4fd;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .footer h5 {
+    color: #343a40;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer span{
+    padding-top: 20px;
+    border-top: 1px solid rgba(7, 10, 19, 0.418);
+  }
+
+
+  /* Travel Details */
+
+.travel-summary {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 100px;
+  }
+  
+  .comments-section {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 600px;
+  }
+  
+  .comments-list {
+    margin-top: 10px;
+  }
+  
+  .comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
